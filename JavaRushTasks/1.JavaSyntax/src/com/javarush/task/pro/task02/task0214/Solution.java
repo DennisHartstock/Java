@@ -1,6 +1,5 @@
 package com.javarush.task.pro.task02.task0214;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class Solution {
