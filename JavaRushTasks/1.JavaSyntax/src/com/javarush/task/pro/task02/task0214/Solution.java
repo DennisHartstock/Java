@@ -12,5 +12,6 @@ public class Solution {
         System.out.println(string3);
         System.out.println(string2.toUpperCase());
         System.out.println(string1.toLowerCase());
+        scanner.close();
     }
 }

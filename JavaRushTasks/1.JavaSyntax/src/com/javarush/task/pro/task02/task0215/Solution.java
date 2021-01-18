@@ -13,5 +13,6 @@ public class Solution {
         int arithmeticalMean = (number1 + number2 + number3) / 3;
 
         System.out.println(arithmeticalMean);
+        scanner.close();
     }
 }
