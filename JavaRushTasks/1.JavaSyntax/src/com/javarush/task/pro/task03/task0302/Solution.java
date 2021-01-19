@@ -12,8 +12,7 @@ public class Solution {
         System.out.print("Введите Ваш возраст: ");
         int age = scanner.nextInt();
 
-        if (age >= 18 && age <= 28) {
+        if (age >= 18 && age <= 28)
             System.out.println(name + ", явитесь в военкомат");
-        }
     }
 }
