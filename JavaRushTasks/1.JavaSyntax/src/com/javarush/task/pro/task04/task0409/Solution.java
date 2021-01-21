@@ -1,4 +1,4 @@
-package com.javarush.task.pro.task04.task0408;
+package com.javarush.task.pro.task04.task0409;
 
 import java.util.Scanner;
 
@@ -6,15 +6,16 @@ public class Solution {
     public static void main(String[] args) {
         System.out.print("Введите число: ");
         Scanner scanner = new Scanner(System.in);
-        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
 
         while (scanner.hasNextInt()) {
             System.out.print("Введите число: ");
             int x = scanner.nextInt();
-            if (x % 2 == 0 && max < x) {
-                max = x;
+
+            if (x < min) {
+                min = x;
             }
         }
-        System.out.println(max);
+        System.out.println(min);
     }
 }
