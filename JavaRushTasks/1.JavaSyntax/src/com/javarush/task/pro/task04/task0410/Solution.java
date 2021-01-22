@@ -12,12 +12,7 @@ public class Solution {
         int n = scanner.nextInt();
         int n1 = scanner.nextInt();
 
-        if (n < n1) {
-            secondMin = n1;
-        } else {
-            secondMin = n;
-        }
-
+        secondMin = n < n1 ? n1 : n;
 
         while (scanner.hasNextInt()) {
             int tmp = scanner.nextInt();
