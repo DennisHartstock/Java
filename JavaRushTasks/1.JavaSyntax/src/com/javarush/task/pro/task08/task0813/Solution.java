@@ -7,7 +7,6 @@ public class Solution {
     }
 
     public static int getPowerOfTwo(int power) {
-        int result = 2 << (power - 1);
-        return result;
+        return 2 << (power - 1);
     }
 }
