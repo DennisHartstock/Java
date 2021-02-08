@@ -1,5 +1,7 @@
 package com.javarush.task.pro.task09.task0906;
 
+import java.util.regex.Pattern;
+
 public class Solution {
     public static void main(String[] args) {
         int decimalNumber = Integer.MAX_VALUE;
@@ -23,7 +25,7 @@ public class Solution {
 
     public static int toDecimal(String binaryNumber) {
         int decimalNumber = 0;
-        if (binaryNumber == null || binaryNumber.isEmpty()) {
+        if (binaryNumber == null || binaryNumber.isEmpty() || !Pattern.matches("[0-1]+", binaryNumber)) {
             return decimalNumber;
         }
 

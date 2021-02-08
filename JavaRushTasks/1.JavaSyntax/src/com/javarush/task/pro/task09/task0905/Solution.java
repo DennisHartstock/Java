@@ -1,5 +1,7 @@
 package com.javarush.task.pro.task09.task0905;
 
+import java.util.regex.Pattern;
+
 public class Solution {
     public static void main(String[] args) {
         int decimalNumber = 83;
@@ -25,7 +27,7 @@ public class Solution {
 
     public static int toDecimal(int octalNumber) {
         int decimalNumber = 0;
-        if (octalNumber <= 0) {
+        if (octalNumber <= 0 || !Pattern.matches("[0-7]+", String.valueOf(octalNumber))) {
             return decimalNumber;
         }
 
