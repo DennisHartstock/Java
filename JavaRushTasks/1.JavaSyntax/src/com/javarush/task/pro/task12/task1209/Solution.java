@@ -18,9 +18,6 @@ public class Solution {
 
     public static void main(String[] args) {
         initEmployees();
-        paySalary("Гвинно");
-        System.out.println(waitingEmployees);
-        System.out.println(alreadyGotSalaryEmployees);
     }
 
     public static void paySalary(String name) {
