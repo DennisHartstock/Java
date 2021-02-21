@@ -10,10 +10,16 @@ public class EnemyShip extends Ship {
     }
 
     public void move(Direction direction, double speed) {
-        switch (direction) {
-            case RIGHT -> x = x + speed;
-            case LEFT -> x = x - speed;
-            case DOWN -> y += 2;
+        if (direction == Direction.RIGHT) {
+            x = x + speed;
+        }
+
+        if (direction == Direction.LEFT) {
+            x = x - speed;
+        }
+
+        if (direction == Direction.DOWN) {
+            y += 2;
         }
     }
 }
