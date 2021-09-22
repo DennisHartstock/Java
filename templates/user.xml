@@ -1,0 +1,7 @@
+<templateSet group="user">
+  <template name="buf" value="BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
