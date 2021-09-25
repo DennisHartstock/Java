@@ -4,7 +4,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="fbuff" value="BufferedReader fileReader = new BufferedReader(new FileReader(fileName)" toReformat="false" toShortenFQNames="true">
+  <template name="fbuff" value="BufferedReader fileReader = new BufferedReader(new FileReader(fileName)" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
