@@ -1,5 +1,12 @@
 <application>
   <component name="libraryTable">
+    <library name="http-client">
+      <CLASSES>
+        <root url="jar://$APPLICATION_HOME_DIR$/lib/http-client.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="org.slf4j:slf4j-api:1.7.23" type="repository">
       <properties maven-id="org.slf4j:slf4j-api:1.7.23" />
       <CLASSES>
